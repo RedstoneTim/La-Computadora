@@ -1,1 +1,1 @@
-web: java -jar build/libs/LaComputadora-1.0.0.jar
+web: java -jar build/libs/LaComputadora-1.0.0-all.jar
