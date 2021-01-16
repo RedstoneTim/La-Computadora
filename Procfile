@@ -1,1 +1,1 @@
-worker: java -jar build/libs/LaComputadora-1.0.0-all.jar
+Worker: java -jar build/libs/LaComputadora-1.0.0-all.jar
