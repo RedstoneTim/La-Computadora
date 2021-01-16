@@ -26,11 +26,6 @@ object Markov {
             val data = HashMap<String, MutableList<Char>>()
             for (i in 0 until text.length - orderNum) {
                 val ngram: String = text.substring(i, i + orderNum)
-//                var list = data[ngram]
-//                if (list == null) {
-//                    list = ArrayList()
-//                    data[ngram] = list
-//                }
                 data.getOrPut(ngram) { arrayListOf() }.add(text.elementAt(i + orderNum))
             }
             collectedData[name] = data
